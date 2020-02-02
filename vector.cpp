@@ -1,5 +1,6 @@
 #include<iostream>
 #include<initializer_list>
+#include <functional>
 using namespace std;
 
 /*
@@ -228,5 +229,6 @@ int main(){
     v1.resize(5);
     v1.print();  
     cout<<"Capacity: "<<v1.capacity()<<",  Size: "<<v1.size()<<endl; 
+
 }
 
